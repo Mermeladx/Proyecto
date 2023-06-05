@@ -1,0 +1,32 @@
+.paginador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.paginador a {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-right: 5px;
+  border: none;
+  background-color: #00258b;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+}
+
+.paginador a:hover {
+  background-color: #00258b;
+}
+
+.paginador .active {
+  background-color: #00258b;
+}
+
+.paginador .disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
